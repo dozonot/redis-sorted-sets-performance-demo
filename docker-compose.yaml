@@ -16,6 +16,8 @@ services:
       MYSQL_DATABASE: demo
       MYSQL_USER: demo
       MYSQL_PASSWORD: demo
+    ports:
+      - "3306:3306"
 volumes:
   redis_data:
   mysql_data:
